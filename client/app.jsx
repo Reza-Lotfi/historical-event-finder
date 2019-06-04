@@ -36,10 +36,6 @@ class App extends React.Component {
           currentQuery: this.state.query
         })
       })
-      .then(() => {
-        console.log('axios response received')
-      })
-    console.log(`submitted ${this.state.query} for query!`)
   }
 
   handlePageChange(e){
@@ -49,10 +45,6 @@ class App extends React.Component {
           events: response.data
         })
       })
-      .then(() => {
-        console.log('axios response received')
-      })
-    console.log(`submitted ${this.state.query} for query!`)
   }
 
   render(){
